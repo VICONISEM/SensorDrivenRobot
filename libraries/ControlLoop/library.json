@@ -1,0 +1,28 @@
+{
+    "name": "ControlLoop",
+    "keywords": "PID, controller, signal, cascade, temperature",
+    "description": "PID, controller, signal, cascade",
+    "repository":
+        {
+        "type": "git",
+        "url": "https://github.com/cjmccjmccjmc/ControlLoop.git"
+        },
+    "dependencies": [
+        {
+            "name": "PID",
+            "version": "1.2.1",
+            "frameworks": "arduino"
+        }
+    ],
+    "version": "1.0.2",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "architecture": "*",
+    "author": "cjmccjmccjmc",
+    "maintainer": "cjmccjmccjmc",
+    "sentence": "An all in one, device controller with on/off, PID, and Cascade PID.",
+    "paragraph": "Developed to allow end users to change how the device is controlled.  Abstracts the measured and controlled variables from underlying process, allowing simple and quicker integration with your processes.",
+    "category": "Device Control",
+    "url": "https://github.com/cjmccjmccjmc/ControlLoop.git"
+
+}
